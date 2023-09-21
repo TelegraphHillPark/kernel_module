@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/task/moduleTask/Module.symvers := sed 's/ko$$/o/' /home/ubuntu/task/moduleTask/modules.order | scripts/mod/modpost -m -a  -o /home/ubuntu/task/moduleTask/Module.symvers -e -i Module.symvers   -T -
